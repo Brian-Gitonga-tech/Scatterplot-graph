@@ -1,0 +1,39 @@
+svg {
+    position: absolute;
+    top: 9%;
+    left: 15%;
+}
+
+.dot{
+    border: 5px solid black;
+}
+
+#orange {
+    padding: 5%;
+    background-color: orange;
+    width: 1%;
+    height: 1%;
+    position: absolute;
+    top: 1%;
+    left: 105%;
+}
+#legend {
+    display: block;
+    width: max-content;
+    position: relative;
+    left: 75%;
+}
+#blue {
+    padding: 5%;
+    background-color: rgb(31, 119, 180);
+    width: 1%;
+    height: 1%;
+    position: absolute;
+    top: 60%;
+    left: 105%;
+}
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
